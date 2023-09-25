@@ -32,6 +32,7 @@ input[type="text"], textarea {
     margin-top: 1em;
     max-width: 100%;
     outline-color: #5e81ac;
+    resizable:none;
 }
 
 button[type="submit"] {
