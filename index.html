@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Nelkeys Aonymous Messaging</title>
+</head>
+<body>
+    <header>
+        <h1>Nelkeys Anonymous Messaging</h1>
+    </header>
+
+    <div class="container">
+        <form id="messageForm">
+            <div class="alert" id="successMessage" style="display: none;">Your message has been sent.</div>
+    
+            <label for="message">Send Nelkeys an Anonymous Message:</label>
+    
+            <textarea name="message" id="message" rows="4" placeholder="Type your message here..." required></textarea>
+    
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    
+
+    <!-- Firebase JavaScript SDK - Firebase Realtime Database -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+<!-- Include other Firebase services you need (e.g., Firestore, Storage, etc.) -->
+
+    <script src="JavaScript/script.js"></script>
+</body>
+</html>
